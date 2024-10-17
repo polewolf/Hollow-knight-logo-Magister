@@ -1,0 +1,114 @@
+/* Algemeen stijlen voor Valheim-thema */
+body {
+    background-color: #2b2b2b; /* Donkere achtergrondkleur */
+    color: #f4f4f2; /* Lichtgrijze tekst voor leesbaarheid */
+    font-family: 'Cinzel', serif; /* Toepassen van Valheim-achtig lettertype overal */
+    background-image: url('https://example.com/valheim-background.jpg'); /* Voeg een Viking-achtige achtergrond toe */
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+}
+
+/* Logo styling */
+.logo {
+    width: 200px;
+    height: auto;
+    margin: 20px auto;
+    display: block;
+    background-image: url('https://example.com/valheim-logo.png'); /* Voeg het Valheim-thema logo toe */
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+/* Globale knoppenstijl toepassen */
+button, .btn, input[type="submit"], input[type="button"] {
+    background-color: #4e4c46; /* Donkerbruine of grijsachtige knoppenkleur, zoals leer of hout */
+    border: 2px solid #d4af37; /* Gouden rand voor een rijke Vikingstijl */
+    color: #fff; /* Witte tekst */
+    padding: 10px 20px;
+    text-transform: uppercase; /* Hoofdletters voor een stoer effect */
+    font-family: 'Cinzel', serif; /* Consistent lettertype voor knoppen */
+    letter-spacing: 2px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    display: inline-block; /* Zorgt ervoor dat alle knoppen inline weergegeven worden */
+}
+
+button:hover, .btn:hover, input[type="submit"]:hover, input[type="button"]:hover {
+    background-color: #d4af37; /* Verandert naar gouden tint bij hover */
+    color: #4e4c46; /* Tekst verandert naar donkere kleur */
+    border: 2px solid #fff; /* Witte rand */
+}
+
+/* Link styling */
+a {
+    color: #d4af37;
+    text-decoration: none;
+    font-family: 'Cinzel', serif; /* Consistent lettertype voor links */
+}
+
+a:hover {
+    color: #f4f4f2;
+    text-decoration: underline;
+}
+
+/* Navigatiebalk stijl */
+.navbar {
+    background-color: #4e4c46; /* Donker leren look */
+    border-bottom: 2px solid #d4af37; /* Gouden onderrand */
+}
+
+.navbar a {
+    color: #f4f4f2;
+    padding: 10px 15px;
+    display: inline-block;
+    font-family: 'Cinzel', serif; /* Consistent lettertype voor de navigatiebalk */
+}
+
+.navbar a:hover {
+    background-color: #d4af37; /* Gouden highlight bij hover */
+    color: #4e4c46; /* Donkere tekst bij hover */
+}
+
+/* Headers */
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Cinzel', serif; /* Consistent lettertype voor headers */
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #d4af37; /* Gouden tint voor headers */
+}
+
+/* Footer styling */
+footer {
+    background-color: #2b2b2b;
+    color: #f4f4f2;
+    text-align: center;
+    padding: 20px;
+    font-size: 14px;
+    font-family: 'Cinzel', serif; /* Consistent lettertype voor de footer */
+}
+
+/* Specifieke stijl voor input velden */
+input[type="text"], input[type="password"], textarea {
+    background-color: #4e4c46;
+    border: 2px solid #d4af37;
+    color: #fff;
+    padding: 10px;
+    font-family: 'Cinzel', serif; /* Consistent lettertype voor invoervelden */
+    width: 100%;
+}
+
+input[type="text"]:focus, input[type="password"]:focus, textarea:focus {
+    border-color: #d4af37;
+    background-color: #3b3b3b;
+    outline: none;
+}
+
+/* Tabellen en andere elementen */
+table, th, td {
+    font-family: 'Cinzel', serif; /* Consistent lettertype voor tabellen */
+    color: #f4f4f2;
+    border: 1px solid #d4af37;
+    padding: 10px;
+}
