@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css?family=Akaya+Kanadaka');
+:root {
+ --st-font-family-primary: 'Akaya Kanadaka', sans-serif;
+ --st-font-hero: 21px var(--st-font-family-primary);
+ --st-font-family-secondary: 'Akaya Kanadaka', sans-serif;
+ --st-font-primary: 'Akaya Kanadaka', sans-serif;
+ --st-font-secondary: 'Akaya Kanadaka', sans-serif;
+}
+dna-button, .main-menu li a span.caption, .block h3 b {
+  font-family: var( --st-font-family-primary)
+}
+.splash-container {
+    display: none;
+}
+.podium_container {
+    width: 100%;
+}
+.logo .logo-expanded.ng-scope{content:url("https://raw.githubusercontent.com/polewolf/Hollow-knight-logo-Magister/refs/heads/main/Magister.png")!important}
+.logo-collapsed{content:url("https://github.com/polewolf/Hollow-knight-logo-Magister/blob/main/M%20(1)kopie.png?raw=true")!important}
+:root{--st-page-wallpaper:var(--st-page-wallpaper-overlay),url("https://i.pinimg.com/originals/ac/23/58/ac23582ee2d39adad7713d46a8093069.gif");
+  --st-page-background:#00000050;
+  --st-page-wallpaper-overlay:linear-gradient(color-mix(in srgb, var(--st-page-background), transparent 20%), color-mix(in srgb, var(--st-page-background), transparent 20%))
+  ;--st-side-background:hsla(0, 0%, 0%, 0.2);
+  --st-appbar-background:hsla(0, 0%, 0%, 0.3);
+  --st-background-primary:#121212;--st-background-secondary:#0c0c0c00;
+  --st-background-tertiary:#0c0c0c;
+  --st-background-overlay:#121212f7;
+  --st-background-transparent:#121212bb;
+  --st-background-overlaid:#00000030;
+  --st-highlight-primary:hsla(0, 0%, 0%, 0.9);
+  --st-highlight-subtle:#181f24;--st-highlight-ok:#1a4c38;
+  --st-highlight-warn:#511f1f;--st-highlight-info:#0f314d;
+  --st-foreground-primary:#fff;
+  --st-foreground-secondary:#dddddd;
+  --st-foreground-insignificant:#888;
+  --st-foreground-accent:hsl(207, 52.99999999999999%, 55%);
+  --st-border-color:#00000000;
+  --st-accent-primary:hsl(207, 73%, 29.999999999999996%);
+  --st-accent-primary-dark:hsl(207, 73%, 22%);
+  --st-accent-tertiary:hsl(207, 73%, 26%);
+  --st-accent-ok:#339e7c;
+  --st-accent-warn:#e94f4f;
+  --st-accent-info:#4ea3e9;
+  --st-chip-info-border:#2395ff;
+  --st-chip-info-background:#022a4b;
+  --st-chip-ok-border:#13c4a3;
+  --st-chip-ok-background:#15363c;
+  --st-chip-warn-border:#ff4343;
+  --st-chip-warn-background:#2f1623;
+  --st-contrast-accent:#fff;
+  --st-decoration-fill:#77777711;
+  --st-decoration-fill-opaque:#777777;
+  --st-decoration-fill-intense:#77777730;
+  --st-shadow-value:0;--st-shadow-alpha:.7;
+  --st-hover-brightness:1.3;
+  #st-start-widget-controls>:hover,.st-button.icon,.st-button.icon:hover,.st-button.segment.active,.st-button.segment:hover,.st-dropdown:hover:not(:has(button.st-dropdown-current:hover))::after,.st-dropdown>button.st-dropdown-current:hover,.st-title{color:var(--st-foreground-primary)}
+  #st-start-schedule.list-view .st-start-event{border-radius:3vh}
+  .st-button,.st-dropdown,.st-dropdown:focus,.st-segmented-control,.st-widget,.subtitle aside{background-color:var(--st-highlight-primary)}
+  .st-start-widget-grades-item[data-unread=true]{background-image:var(--st-highlight-primary)}
+  .main-menu li.children li.submenu>a:hover,.main-menu>li.active>a,.main-menu>li.active>a:hover,.main-menu>li.children.expanded>a,.main-menu>li.children.expanded>a:hover,.main-menu>li>a:hover{background-color:var(--st-highlight-primary);
+    backdrop-filter:blur(5px)}[data-ongoing=true].st-chip.important,.st-chip.warn,.st-start-event[data-ongoing=true]{background-color:var(--st-border-color)}
+    #st-start-edit-widgets-prot,.st-dropdown-popover{background-color:var(--st-highlight-primary);backdrop-filter:blur(10px)}
+    .st-chip,span.agenda-text-icon.ng-scope{backdrop-filter:blur(10px);background-color:var(--st-border-color)xxx}
